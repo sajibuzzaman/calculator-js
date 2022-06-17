@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by JS</title>
+    <!-- Tailwind link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main class="">
+        <h1 class="text-5xl mb-9 mt-5 text-center">Calculator</h1>
+        <section class="flex justify-center">
+            <div class="grid grid-cols-4 w-2/6 h-96 text-xl">
+                <div class="col-span-4 border border-slate-600 bg-zinc-800">
+                    <p id="display" class="text-end text-white mt-14 text-3xl">0</p>
+                </div>
+                <button onclick="" id="ac" class="col-span-2 border border-slate-600 bg-blue-600 text-white">AC</button>
+                <button id="del" class="border border-slate-600">DEL</button>
+                <button onclick="display('/')" id="slash" class="border  border-slate-600">/</button>
+                <button onclick="display('1')" id="one" class="border  border-slate-600">1</button>
+                <button onclick="display('2')" id="two" class="border  border-slate-600">2</button>
+                <button onclick="display('3')" id="three" class="border  border-slate-600">3</button>
+                <button onclick="display('*')" id="star" class="border  border-slate-600">*</button>
+                <button onclick="display('4')" id="four" class="border  border-slate-600">4</button>
+                <button onclick="display('5')" id="five" class="border  border-slate-600">5</button>
+                <button onclick="display('6')" id="six" class="border  border-slate-600">6</button>
+                <button onclick="display('+')" id="plus" class="border  border-slate-600">+</button>
+                <button onclick="display('7')" id="seven" class="border  border-slate-600">7</button>
+                <button onclick="display('8')" id="eight" class="border  border-slate-600">8</button>
+                <button onclick="display('9')" id="nine" class="border  border-slate-600">9</button>
+                <button onclick="display('-')" id="minus" class="border  border-slate-600">-</button>
+                <button onclick="display('.')" id="dot" class="border  border-slate-600">.</button>
+                <button onclick="display('0')" id="zero" class="border  border-slate-600">0</button>
+                <button id="equal" class="col-span-2 border border-slate-600 bg-blue-600 text-white">=</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
